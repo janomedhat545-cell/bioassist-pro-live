@@ -1,0 +1,7 @@
+{
+  "name": "BioAssist Pro",
+  "description": "AI-Powered Biotechnology Learning and Research Assistant for molecular biology, CRISPR technology, cancer research, and laboratory calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

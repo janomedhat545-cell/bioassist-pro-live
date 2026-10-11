@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bio-navy: #12304A;
+  --color-bio-navy-dark: #0A1C2C;
+  --color-bio-navy-light: #1A4468;
+  --color-bio-teal: #16A6A1;
+  --color-bio-teal-dark: #118480;
+  --color-bio-teal-light: #20C2BC;
+  --color-bio-mint: #B8F2D0;
+  --color-bio-mint-soft: #EBFBF3;
+  --color-bio-bg: #F7FAFC;
+  --color-bio-card: #FFFFFF;
+  --color-bio-slate: #243447;
+  --color-bio-muted: #68778A;
+  --color-bio-border: #E1E8EF;
+  --color-bio-amber: #F4B942;
+  --color-bio-red: #D64545;
+}
+
+:root {
+  --bg-main: #F7FAFC;
+  --bg-card: #FFFFFF;
+  --text-main: #243447;
+  --text-muted: #68778A;
+  --border-color: #E1E8EF;
+}
+
+.dark {
+  --bg-main: #0B1724;
+  --bg-card: #112234;
+  --text-main: #E2E8F0;
+  --text-muted: #94A3B8;
+  --border-color: #1E344D;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
